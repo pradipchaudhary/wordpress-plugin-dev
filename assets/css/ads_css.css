@@ -1,0 +1,128 @@
+/* Plugin CSS  */
+.myform{
+    margin: 40px 0;
+}
+
+.ads-list{
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.ads-list table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.ads-list table td,
+.ads-list table th{
+    border: 1px solid #c7c7c7;
+    border-collapse: collapse;
+    padding: 2px 4px;
+}
+.ads-list table th{
+    text-align: left;
+    padding: 4px 8px;
+    font-size: 1.1rem;
+}
+.ads-list table td img{
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+.ads-list table td a{
+    color: #fff;
+    text-decoration: none;
+}
+.ads-list table td a.edit-btn{
+    background: #2d71af;
+    padding: 4px 8px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.ads-list table td a.edit-btn:hover{
+    background: #2177c5;
+}
+
+/* === Ads Add CSS === */
+.ads-add{
+    padding: 30px;
+}
+.ads-add h1{
+    margin-bottom: 35px;
+}
+
+.ads-add .from-group label{
+    min-width: 300px;
+    width: 300px;
+}
+.ads-add form .name,
+.ads-add form .link,
+.ads-add form .image,
+.ads-add form .location,
+.ads-add form .save
+{
+    display: flex;
+    margin: 25px 0;
+}
+
+.ads-add form .name label,
+.ads-add form .link label,
+.ads-add form .save label,
+.ads-add form .image label {
+    width: 150px;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.ads-add form .location-name {
+    width: 150px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.ads-add form .name input[type=text],
+.ads-add form .link input[type=text]{
+    width: 400px;
+    padding: 5px 10px;
+}
+
+.ads-add form .save .btn{
+    background: #2271b1;
+    padding: 6px 18px;
+    font-size: 1rem;
+    border:1px solid  #2271b1;
+    color: #fff;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.image-upload-banner .image-place{
+   position: relative;
+   margin-top: 5px;
+   margin-bottom: 30px;
+   height: 65px;
+   overflow: hidden;
+   transition: 0.6s;
+   -webkit-transition: 0.6s;
+   -moz-transition: 0.6s;
+   -ms-transition: 0.6s;
+   -o-transition: 0.6s;
+}
+.image-upload-banner .image-place img{
+    position: absolute;
+    left: 0;
+    height: fit-content;
+    object-fit: cover;
+    
+ }
